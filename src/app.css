@@ -1,3 +1,76 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+	@font-face {
+		font-family: 'Deutsch Gothic';
+		src:
+			local('Deutsch Gothic'),
+			url('/fonts/Deutsch.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Cormorant Garamond';
+		src:
+			local('Cormorant Garamond'),
+			url('/fonts/CormorantGaramond.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Playfair Display';
+		src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Almendra SC-Regular';
+		src: url('/fonts/AlmendraSC-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'BelweGothic';
+		src: url('/fonts/BelweGothic.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Pacifico';
+		src: url('/fonts/Pacifico-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'EB Garamond';
+		src: url('/fonts/EBGaramond-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Shadows Into Light';
+		src: url('/fonts/ShadowsIntoLight-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Cinzel Decorative';
+		src: url('/fonts/CinzelDecorative-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Raleway';
+		src: url('/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
